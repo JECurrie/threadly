@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Threadly wants to create a Rails app for their commenting service. 
+When a user types a comment into the box and clicks the Post button, the comment is saved into a database.
+In the first turn of the request/response cycle, the list of all posts is displayed to the user.
+When a user posts a comment, it triggers the second turn of the request/response cycle, where a new post is added to the database.
